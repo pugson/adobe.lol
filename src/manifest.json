@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Adobe LOL",
+  "description":
+    "This is a stupid browser extension that replaces mentions of 'Adobe XD' with 'Adobe 😆️' all across the internet. Because why not.",
+  "version": "1.0",
+  "author": "Wojtek Witkowski <hi@wojtek.im>",
+  "homepage_url": "https://github.com/pugson/adobe.lol",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "AdobeLOL.png"
+  }
+}
