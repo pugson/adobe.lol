@@ -4,9 +4,10 @@
   "name": "Adobe LOL",
   "description":
     "This is a stupid browser extension that replaces mentions of 'Adobe XD' with 'Adobe 😆️' all across the internet. Because why not.",
-  "version": "1.0",
-  "author": "Wojtek Witkowski <hi@wojtek.im>",
-  "homepage_url": "https://github.com/pugson/adobe.lol",
+  "version": "1.1",
+  "author": "Wojtek Witkowski <wojtek@excuseme.wtf>",
+  "homepage_url": "https://adobe.lol",
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
